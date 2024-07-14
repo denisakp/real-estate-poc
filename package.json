@@ -85,7 +85,8 @@
       "^@app/database(|/.*)$": "<rootDir>/libs/database/src/$1",
       "^@app/config(|/.*)$": "<rootDir>/libs/config/src/$1",
       "^@app/scrapping(|/.*)$": "<rootDir>/libs/scrapping/src/$1",
-      "^@app/scraping(|/.*)$": "<rootDir>/libs/scraping/src/$1"
+      "^@app/scraping(|/.*)$": "<rootDir>/libs/scraping/src/$1",
+      "^@app/storage(|/.*)$": "<rootDir>/libs/storage/src/$1"
     }
   }
 }

@@ -41,6 +41,12 @@
       ],
       "@app/scraping/*": [
         "libs/scraping/src/*"
+      ],
+      "@app/storage": [
+        "libs/storage/src"
+      ],
+      "@app/storage/*": [
+        "libs/storage/src/*"
       ]
     }
   }

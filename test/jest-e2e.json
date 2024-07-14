@@ -18,6 +18,8 @@
     "@app/scrapping/(.*)": "<rootDir>/../libs/scrapping/src/$1",
     "@app/scrapping": "<rootDir>/../libs/scrapping/src",
     "@app/scraping/(.*)": "<rootDir>/../libs/scraping/src/$1",
-    "@app/scraping": "<rootDir>/../libs/scraping/src"
+    "@app/scraping": "<rootDir>/../libs/scraping/src",
+    "@app/storage/(.*)": "<rootDir>/../libs/storage/src/$1",
+    "@app/storage": "<rootDir>/../libs/storage/src"
   }
 }
