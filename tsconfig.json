@@ -16,6 +16,32 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/database": [
+        "libs/database/src"
+      ],
+      "@app/database/*": [
+        "libs/database/src/*"
+      ],
+      "@app/config": [
+        "libs/config/src"
+      ],
+      "@app/config/*": [
+        "libs/config/src/*"
+      ],
+      "@app/scrapping": [
+        "libs/scrapping/src"
+      ],
+      "@app/scrapping/*": [
+        "libs/scrapping/src/*"
+      ],
+      "@app/scraping": [
+        "libs/scraping/src"
+      ],
+      "@app/scraping/*": [
+        "libs/scraping/src/*"
+      ]
+    }
   }
 }

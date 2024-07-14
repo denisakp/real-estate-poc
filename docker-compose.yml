@@ -1,0 +1,28 @@
+networks:
+  estate-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local
+  app-data:
+    driver: local
+
+services:
+  app:
+    build: .
+    ports:
+      - "${APP_FORWARDED_PORT:-3000}:3000"
+    networks:
+      - estate-network
+    container_name: estate-app
+    volumes:
+      - app-data:/app
+
+  mongo:
+    image: mongo:7.0-jammy
+    container_name: estate-mongo
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - estate-network

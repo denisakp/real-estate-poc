@@ -1,9 +1,23 @@
 {
-  "moduleFileExtensions": ["js", "json", "ts"],
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
   "rootDir": ".",
   "testEnvironment": "node",
   "testRegex": ".e2e-spec.ts$",
   "transform": {
     "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/database/(.*)": "<rootDir>/../libs/database/src/$1",
+    "@app/database": "<rootDir>/../libs/database/src",
+    "@app/config/(.*)": "<rootDir>/../libs/config/src/$1",
+    "@app/config": "<rootDir>/../libs/config/src",
+    "@app/scrapping/(.*)": "<rootDir>/../libs/scrapping/src/$1",
+    "@app/scrapping": "<rootDir>/../libs/scrapping/src",
+    "@app/scraping/(.*)": "<rootDir>/../libs/scraping/src/$1",
+    "@app/scraping": "<rootDir>/../libs/scraping/src"
   }
 }
