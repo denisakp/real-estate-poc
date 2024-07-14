@@ -21,7 +21,7 @@ $ make compose-up
 ```
 
 ## Project structure
-
+```txt
 ├── .env.local
 ├── .eslintrc.js
 ├── .gitignore
@@ -115,3 +115,4 @@ $ make compose-up
 ├── tree.py
 ├── tsconfig.build.json
 └── tsconfig.json
+```
